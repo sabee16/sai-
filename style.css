@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  background-image: url('img.1234567.gif');
+  background-size:  50%; /* Makes the GIF 20% of the width and height of the screen */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  margin-top: 20px;
+  font-size: 3em;
+  color: #ffcccb;
+  text-shadow: 2px 2px 5px black;
+}
+
+.container {
+  margin: 30px auto;
+  width: 80%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-yes {
+  background: #ff7f7f;
+  color: white;
+}
+
+.btn-no {
+  background: #555;
+  color: white;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  display: none;
+}
+
+.text-reveal {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #ffcccb;
+  text-shadow: 0 0 10px #ffcccb, 0 0 20px #ffb6c1, 0 0 30px #ff69b4;
+}
+
+.animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+/* Floating emoji animation */
+.emoji {
+  position: absolute;
+  font-size: 2rem;
+  animation: float-up 3s ease-in-out forwards;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  background-color: #1e1e1e;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: #ffcccb;
+}
+
+.container, .popup {
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 2rem;
+  animation: float-up 3s ease-in-out forwards;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+/* Chocolate Button (Brown color) */
+#chocolate-btn {
+  background-color: #6f4f1f; /* Chocolate color */
+  color: white;
+}
+
+/* Vanilla Button (White color) */
+#vanilla-btn {
+  background-color: #fff; /* White color */
+  color: #000; /* Black text for contrast */
+}
+
+/* You can also add some hover effects for better UI */
+#chocolate-btn:hover {
+  background-color: #5e3e1e; /* Darker chocolate color on hover */
+}
+
+#vanilla-btn:hover {
+  background-color: #f0f0f0; /* Light grey on hover */
+}
